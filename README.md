@@ -6,7 +6,7 @@ This plug-in exists because it wasn't an easy process to use [Android runtime pe
 This plug-in uses base code from the answer on [this stackoverflow question](https://stackoverflow.com/questions/35027043/implementing-android-6-0-permissions-in-unity3d) by [Jason Knight](https://stackoverflow.com/users/5919897/jason-knight) from [Noodlecake studios](http://www.noodlecake.com/)
 
 ## Getting Started
-Copy the `Plugins` directory from this repo into the root of your project.
+You can either copy the `Plugins` directory from this repo into the root of your project or download the provided unity package file `PermissionPlease.unitypackage`.
 
 Then edit the file `AndroidManifest.xml` and remove the permissions that you don't need, make sure to only include the ones that you need.
 
@@ -34,9 +34,8 @@ There are example scenes and codes to try in the project, need to test on an act
 
 
 
-## What's Next
-Gotta figure out how to pack this properly as a unity package and maybe release it on the asset store `¯\_(ツ)_/¯`
-
+## Warning
+It should work fine, but I haven't tested it a lot, submit any issues you find.
 
 
 ## Special Thanks
