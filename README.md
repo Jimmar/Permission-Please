@@ -19,10 +19,10 @@ And `OnPermissionCallback` would look something like this:
 ```cs
 private void OnPermissionCallback(bool granted)
 {
-	if(granted)
-		print("permission granted xD");
-	else
-		print("permission denied :(");
+    if(granted)
+        print("permission granted xD");
+    else
+        print("permission denied :(");
 }
 ```
 
