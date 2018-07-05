@@ -57,12 +57,12 @@ namespace Plugins.Android.PermissionPlease
             bool enableLogging = false)
         {
             #if !UNITY_ANDROID
-                Debug.LogWarning("Only Android platform is supported");
+                if (enableLogging) Debug.LogWarning("Only Android platform is supported");
                 return;
             #endif
             
             #if UNITY_EDITOR
-                Debug.LogWarning("Editor is not supported, test on an actual device or an Android Emulator");
+                if (enableLogging) Debug.LogWarning("Editor is not supported, test on an actual device or an Android Emulator");
                 return;
             #endif
             
