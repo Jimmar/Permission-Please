@@ -37,6 +37,8 @@ There are example scenes and codes to try in the project, need to test on an act
 ## Warning
 It should work fine, but I haven't tested it a lot, submit any issues you find.
 
+## What's next
+Detect if user disabled the permission [picked don't ask again] and give an option to open settings to enable the permission 
 
 ## Special Thanks
 [Noodlecake studios](http://www.noodlecake.com/)
